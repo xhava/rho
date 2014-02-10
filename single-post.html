@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=""></meta>
+<meta name="author" content=""></meta>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Title -->
+<title>Aveta - Responsive HTML5 Template</title>
+<!-- CSS Stylesheet -->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<link href="css/layout/boxed1.css" rel="stylesheet" type="text/css" id="layout">
+<link href="css/skin/green.css" rel="stylesheet" type="text/css" id="skin">
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/respond.min.js" type="text/javascript"></script>
+<![endif]-->
+
+<!--Favicons -->
+<link href="images/icon/apple-touch-icon-144.png" sizes="144x144" rel="apple-touch-icon-precomposed"></link>
+<link href="images/icon/apple-touch-icon-114.png" sizes="114x114" rel="apple-touch-icon-precomposed"></link>
+<link href="images/icon/apple-touch-icon-72.png" sizes="72x72" rel="apple-touch-icon-precomposed"></link>
+<link href="images/icon/apple-touch-icon-57.png" rel="apple-touch-icon-precomposed"></link>
+<link href="images/icon/favicon.png" rel="shortcut icon"></link>
+
+<!-- Scripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="js/jquery.flexslider.js" type="text/javascript"></script>
+<script src="js/jflickrfeed.js" type="text/javascript"></script>
+<script src="js/selectnav.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/menu-lamp.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+<script src="js/switcher.js" type="text/javascript"></script>
+<script>
+
+	$(document).ready(function() {
+			$('.entry-slider').flexslider({
+				animation: "fade",            
+				easing: "swing",               
+				controlNav:false,
+				prevText: "<i class='icon-angle-left'></i>",
+				nextText: "<i class='icon-angle-right'></i>", 
+				before: function(slider) {
+				},
+				after: function(slider) {
+				}
+			});
+	});					
+</script>
+</head>
+<body class="bg-1">
+<!-- Switcher 
+===============================-->
+<div id="switcher"> <i id="sw-button-toggle" class="icon-magic"></i>
+  <h4 class="sw-title">Switcher Style</h4>
+  <p id="change-layout"><span id="boxed1" class="sw-btn">Boxed 1</span>&nbsp;<span id="boxed2" class="sw-btn">Boxed 2</span><span id="fullwidth" class="sw-btn fullwidth">Fullwidth</span></p>
+  <h5>Skin</h5>
+  <ul class="skin clearfix">
+    <li id="red" title="red"></li>
+    <li id="orange" title="orange"></li>
+    <li id="green" title="green"></li>
+    <li id="blue" title="blue"></li>
+    <li id="steel" title="steel"></li>
+  </ul>
+  <h5>Background Pattern</h5>
+  <ul class="bg-pattern clearfix">
+    <li class="bg-1"></li>
+    <li class="bg-2"></li>
+    <li class="bg-3"></li>
+    <li class="bg-4"></li>
+    <li class="bg-5"></li>
+    <li class="bg-8"></li>
+    <li class="bg-9"></li>
+    <li class="bg-10"></li>
+    <li class="bg-6"></li>
+    <li class="bg-7"></li>
+  </ul>
+</div>
+<!-- Wrapper All Content 
+===============================-->
+<div class="wrapper">
+  <!-- Header 
+===============================-->
+  <header>
+    <div class="container clearfix">
+      <div class="aveta-logo"><a href="index.html"><img src="images/aveta-logo.png" alt="Aveta Logo" /></a></div>
+      <!--End Logo-->
+      <nav id="navigation">
+        <ul class="menu-lamp hidden-phone" id="menu-lamp">
+          <li><a data-desc="The Beginning" href="index.html">Home</a>
+            <ul class="submenu">
+              <li><a href="index-2.html">Home 2</a></li>
+              <li><a href="index-3.html">Home 3</a></li>
+<li><a href="index-4.html">Home 4</a></li>
+            </ul>
+          </li>
+          <li><a href="" data-desc="Rich Elements"><span></span>Features</a>
+            <ul class="submenu">
+              <li><a href="#">Header</a>
+              	<ul class="submenu">
+                  <li><a href="header-2.html">Header Style 2</a></li>
+                  <li><a href="header-3.html">Header Style 3</a></li>
+<li><a href="header-4.html">Header Style 4</a></li>
+<li><a href="header-5.html">Header Style 5</a></li>
+                </ul>
+              </li>
+               <li><a href="#">Footer</a>
+              	<ul class="submenu">
+                  <li><a href="footer-2.html">Footer Style 2</a></li>
+                  <li><a href="footer-3.html">Footer Style 3</a></li>
+                </ul>
+              </li>
+              <li><a href="elements.html">Elements</a></li>
+<li><a href="typography.html">Typography</a></li>
+              <li><a href="table.html">Table</a></li>
+              <li><a href="#">Sub Menu Level 3</a>
+                <ul class="submenu">
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#" data-desc="Landing Pages">Pages</a>
+            <ul class="submenu">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="our-team.html">Our Team</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="404.html">404 Error</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="countdown.html">Under Construction</a></li>
+              <li><a href="sitemap.html">Sitemap</a></li>
+            </ul>
+          </li>
+          <li><a href="#" data-desc="Our Projects">Portfolio</a>
+            <ul class="submenu">
+              <li><a href="portfolio-6columns.html">Portfolio 6 Columns</a></li>
+              <li><a href="portfolio-4columns.html">Portfolio 4 Columns</a></li>
+              <li><a href="portfolio-3columns.html">Portfolio 3 Columns</a></li>
+              <li><a href="portfolio-2columns.html">Portfolio 2 Columns</a></li>
+              <li><a href="single-project.html">Single Project</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="active" data-desc="Latest News">Blog</a>
+            <ul class="submenu">
+              <li><a href="blog-1.html">Blog Style 1</a></li>
+              <li><a href="blog-2.html">Blog Style 2</a></li>
+              <li><a href="blog-fullwidth.html">Blog Fullwidth</a></li>
+              <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+              <li><a href="single-post.html">Single Post</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html" data-desc="Get in Touch">Contact</a></li> </ul>
+         <div id="box">
+            <div class="head"><i class="icon-caret-down"></i></div>
+          </div>
+      </nav>
+      <!--End Navigation-->
+    </div>
+  </header>
+  <!-- End Header-->
+  <!-- Page Header 
+===============================-->
+  <section id="page-header" class="page-section">
+    <div class="container effect-loaded clearfix bg2">
+      <h1>Single Post</h1>
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li class="active">Single Post</li>
+      </ul>
+    </div>
+  </section>
+  <!-- Page Content 
+===============================-->
+  <section id="page-content">
+    <div class="container">
+      <div class="row">
+        <div id="blog-1" class="col-lg-8">
+          <div id="blog-content">
+            <article class="clearfix">
+              <div class="entry-slider effect-loaded">
+                <ul class="slides">
+                  <li><a href=""><img src="images/blog-thumbail1.jpg" alt="" /></a></li>
+                  <li><a href=""><img src="images/blog-thumbail3.jpg" alt="" /></a></li>
+                </ul>
+              </div>
+              <div class="entry-body effect-loaded">
+                <h3><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h3>
+                <p> Vestibulum in lacus in felis pretium feugiat non sed elit. Duis pretium, urna sed pellentesque tincidunt, neque massa imperdiet nisi, sed cursus leo magna pretium elit. Proin bibendum ipsum a ante viverra lobortis. Phasellus id augue ligula, nec ultrices augue. Aliquam erat volutpat. </p>
+                <p>
+                <blockquote>
+                  <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                  <small>John Doe</small> </blockquote>
+                </p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+              </div>
+              <div class="entry-meta effect-loaded">
+                <ul>
+                  <li class="clearfix"><i class="post-type icon-paste"></i></li>
+                  <li><span><strong>Posted:</strong> <a href="">July 21, 2013</a></span></li>
+                  <li><span><strong>Tags:</strong> <a href="">Photo</a></span></li>
+                  <li><span><strong>Comments:</strong> <a href="">5</a></span></li>
+                </ul>
+              </div>
+            </article>
+            <!--End Article-->
+            <div class="post-author clearfix">
+              <h3 class="heading">About <strong>Author</strong></h3>
+              <div class="team-avatar"> <img src="images/team-2.jpg" alt="" /> </div>
+              <h4 class="team-name">John Doe <small> / Web Designer</small></h4>
+              <p>Maecenas dignissim euismod nunc, in commodo est luctus eget. Proin in nunc laoreet justo volutpat blandit enim. Sem felis, ullamcorper vel aliquam non, varius eget justo.</p>
+              <br clear="all">
+              <ul class="social-icon" style="float:left">
+                <li><a href="" class="icon-facebook facebook"></a></li>
+                <li><a href="" class="icon-dribble dribble"></a></li>
+                <li><a href="" class="icon-twitter twitter"></a></li>
+              </ul>
+            </div>
+            <div class="post-share clearfix">
+              <h3><strong>Share</strong> This Post</h3>
+              <!-- AddThis Button BEGIN -->
+              <div class="addthis_toolbox addthis_default_style "> <a class="addthis_button_preferred_1"></a> <a class="addthis_button_preferred_2"></a> <a class="addthis_button_preferred_3"></a> <a class="addthis_button_preferred_4"></a> <a class="addthis_button_compact"></a> <a class="addthis_counter addthis_bubble_style"></a> </div>
+              <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+              <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51a0c51d42cbb399"></script>
+              <!-- AddThis Button END -->
+            </div>
+            <div class="section-comment clearfix">
+              <h3 class="heading">Comments <strong>(4)</strong></h3>
+              <ol class="commentlist">
+                <li>
+                  <div class="comments clearfix">
+                    <div class="avatar"><img src="images/avatar-default.png" alt="" border="0" height="50" width="50"> </div>
+                    <div class="comment-des">
+                      <div class="comment-by"><strong>John Doe</strong><span class="reply"><span style="color:#aaa">/ </span><a href="#">Reply</a></span> <span class="date">July, 23 2013</span></div>
+                      <p>Maecenas dignissim euismod nunc, in commodo est luctus eget. Proin in nunc laoreet justo volutpat blandit enim. Sem felis, ullamcorper vel aliquam non, varius eget justo. Duis quis nunc tellus. Mauris a felis arcu, vitae sollicitudin mauris. Aliquam quis tellus vel massa mattis ornare et eu felis. </p>
+                    </div>
+                  </div>
+                  <ol class="childlist">
+                    <li>
+                      <div class="comments">
+                        <div class="avatar"><img src="images/avatar-default.png" alt="" border="0" height="50" width="50"> </div>
+                        <div class="comment-des">
+                          <div class="comment-by"><strong>Admin</strong><span class="reply"><span style="color:#aaa">/ </span><a href="#">Reply</a></span> <span class="date">August 12, 2012</span></div>
+                          <p>Dignissim euismod nunc, in commodo est luctus eget. Proin in nunc laoreet justo volutpat blandit enim. Sem felis, ullamcorper vel aliquam non, varius eget justo. Duis quis nunc tellus. Mauris a felis arcu, vitae sollicitudin mauris. Aliquam quis tellus vel massa mattis.</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <div class="comments">
+                    <div class="avatar"><img src="images/avatar-default.png" alt="" border="0" height="50" width="50"> </div>
+                    <div class="comment-des">
+                      <div class="comment-by"><strong>John Doe</strong><span class="reply"><span style="color:#aaa">/ </span><a href="#">Reply</a></span><span class="date">August 12, 2012</span></div>
+                      <p>Morbi velit eros, sagittis in facilisis non, rhoncus et erat. Nam posuere tristique sem, eu ultricies tortor imperdiet vitae. Curabitur lacinia neque non metus</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="comments">
+                    <div class="avatar"><img src="images/avatar-default.png" alt="" border="0" height="50" width="50"> </div>
+                    <div class="comment-des">
+                      <div class="comment-by"><strong>John Doe</strong><span class="reply"><span style="color:#aaa">/ </span><a href="#">Reply</a></span><span class="date">August 12, 2012</span></div>
+                      <p>Commodo est luctus eget. Proin in nunc laoreet justo volutpat blandit enim. Sem felis, ullamcorper vel aliquam non, varius eget justo. Duis quis nunc tellus. Mauris a felis arcu, vitae sollicitudin mauris.</p>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+            </div>
+            <div class="comment-form">
+              <h3 class="heading">Leave a <strong>Comment</strong></h3>
+              <form>
+                <p>
+                  <label>Your Name</label>
+                  <input type="text">
+                </p>
+                <p>
+                  <label>Your Email</label>
+                  <input type="text">
+                </p>
+                <p>
+                  <label>Your Message</label>
+                  <textarea class="message-contact-form"></textarea>
+                </p>
+                <p>
+                  <input type="submit" class="btn btn-success" value="Submit">
+                  <input type="reset" class="btn btn-danger" value="Reset">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Sidebar 
+===============================-->
+        <div id="sidebar" class="col-lg-4">
+          <div class="sidebar-bg">
+            <div class="row clearfix no-padding">
+              <div class="col-lg-6 effect-loaded">
+                <div class="widget">
+                  <h4 class="widget-title">Categories</h4>
+                  <ul class="square-list" style="padding-left:10px;">
+                    <li><a href="">Architecture</a></li>
+                    <li><a href="">Web Design</a></li>
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Typography</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 effect-loaded">
+                <div class="widget">
+                  <h4 class="widget-title">Archives</h4>
+                  <ul class="square-list" style="padding-left:10px;">
+                    <li><a href="">May 2013</a></li>
+                    <li><a href="">Jul 2013</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="widget effect-loaded">
+              <div class="horizotal-tabs">
+                <!-- Tabs Navigation -->
+                <ul class="nav nav-tabs" id="vtabs1">
+                  <li class="active"><a href="#tab1">Popular</a></li>
+                  <li><a href="#tab2">Recent</a></li>
+                  <li><a href="#tab3"><i class="icon-comment"> </i>Comments</a></li>
+                </ul>
+                <!-- Tabs Content -->
+                <div class="tab-content">
+                  <div class="tab-pane active fade in" id="tab1">
+                    <ul class="widget-latest-post">
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project1.jpg" alt=""><a href="">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit.</a><i class="post-time">Jan 21 2013</i></li>
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project3.jpg" alt=""><a href="">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</a><i class="post-time">Jan 21 2013</i></li>
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project5.jpg" alt=""><a href="">Excepteur sint occaecat cupidatat non</a><i class="post-time">Jan 21 2013</i></li>
+                    </ul>
+                  </div>
+                  <div class="tab-pane fade" id="tab2">
+                    <ul class="widget-latest-post">
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project3.jpg" alt=""><a href="">Et harum quidem rerum facilis est et expedita distinctio.</a><i class="post-time">Jan 21 2013</i></li>
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project4.jpg" alt=""><a href="">Excepteur sint occaecat cupidatat non proident</a><i class="post-time">Jan 21 2013</i></li>
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project6.jpg" alt=""><a href="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</a><i class="post-time">Jan 21 2013</i> </li>
+                    </ul>
+                  </div>
+                  <div class="tab-pane fade" id="tab3">
+                    <ul class="widget-latest-post">
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project8.jpg" alt=""><a href="">Itaque earum rerum hic tenetur a sapiente delectust</a><i class="post-time">Jan 21 2013</i></li>
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project7.jpg" alt=""><a href="">Temporibus autem quibusdam et aut officiis debitis </a><i class="post-time">Jan 21 2013</i></li>
+                      <li class="clearfix"><img class="thumbail" width="75" src="images/project2.jpg" alt=""><a href=""> Nam libero tempore, cum soluta nobis est eligendi</a><i class="post-time">Jan 21 2013</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="widget effect-loaded">
+              <h4 class="widget-title">Popular tags</h4>
+              <div class="tags"> <a href="">Blog</a> <a href="">Design</a> <a href="">Web</a> <a href="">Technology</a> <a href="">Magazine</a> <a href="">Portfolio</a> </div>
+            </div>
+          </div>
+        </div>
+        <!--End Sidebar-->
+      </div>
+    </div>
+  </section>
+  <!-- Footer 
+===============================-->
+  <footer>
+    <div class="container">
+      <div class="row no-padding">
+        <div class="col-lg-4 effect-loaded">
+          <h3 class="heading">About us</h3>
+          <div id="footer-about">
+            <p><strong>Temporibus</strong> autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet repudiandae sint quidem rerum facilis est et expedita </p>
+            <p>Nemo tem quia voluptas sit <strong>aspernatur aut odit</strong> aut fugit, sed quia consequuntur magni dolores</p>
+          </div>
+        </div>
+        <div class="col-lg-4 effect-loaded clearfix">
+          <h3 class="heading">Latest News</h3>
+          <ul class="latest-news">
+            <li class="clearfix"> <img class="thumb" src="images/project1.jpg" alt="" >
+              <div class="desc"> <a class="title" href="">Nam libero tempore, cum soluta nobis est eligendi optio cumque</a> <i class="time" href="">about 5 hours ago</i> </div>
+            </li>
+            <li class="clearfix"> <img class="thumb" src="images/project8.jpg" alt="" >
+              <div class="desc"> <a class="title" href="">Nam libero tempore, cum soluta nobis est eligendi optio cumque</a> <i class="time">about 8 hours ago</i> </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 effect-loaded">
+          <h3 class="heading">Flickr</h3>
+          <ul id="flickr">
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-bottom" class="clearfix">
+      <div class="container">
+        <div class="row no-padding">
+          <div class="col-lg-8 effect-loaded">
+            <ul class="footer-menu clearfix">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 effect-loaded"><span  id="copyright" >Copyright © 2013 Aveta by ThemeTan</span></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer-->
+</div>
+<!--Move To Top-->
+<div id="movetotop"> <a class="icon-angle-up"></a> </div>
+</body>
+</html>

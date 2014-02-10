@@ -1,0 +1,28 @@
+/* =============================================================== */
+/* Apply Boxed 2
+/* =============================================================== */
+.page-section, #footer-bottom{width:100% !important;}
+#page-content{background:#fff;width:100%}
+footer{background:#292929; width:100%;}
+footer .container{width:100% !important;}
+
+@media (min-width: 769px) and (max-width: 979px) {
+	#page-header{max-width:728px; padding:0 20px;}
+
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	#page-header {max-width:940px; padding:0 20px;}
+	.page-section, #footer-bottom, #page-content{max-width:100%}
+}
+@media (min-width: 1200px) {
+	#page-header{max-width:1170px; padding:0 30px;}
+	.page-section, #footer-bottom,  #page-content{max-width:100%}
+}
+@media (max-width: 979px) {
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 420px) {
+
+}
